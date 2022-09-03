@@ -1,0 +1,33 @@
+*{
+  background: url(img/Timber-framed\ medieval\ house.png);
+}
+
+a {
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 68px;
+
+  display: flex;
+}
+
+/* Nesse eu peguei todo o .container e modifiquei ele */
+.container {
+  max-width: 145px;
+  /* margin-left: 200px;
+  margin-right: auto; */
+  /* text-align: center; */
+  position: relative;
+
+}
+
+/* nesse eu quis especificar que é a img dentro do container 2 que quero inverter, para nao inverter o nome nem nada */
+.container2 img {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  position: absolute;
+}
+
+section{
+  display: flex;
+  gap: 760px;
+}
